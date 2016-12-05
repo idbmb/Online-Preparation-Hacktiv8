@@ -1,5 +1,9 @@
 ## Hacktiv8 Phase 0 Week 1 : Membuat Website Pertama Saya
 
+## Information :  
+#### Mohon maaf untuk Screenshot Codeacademy Course - HTML CSS Unit 1 s.d 9 hanya mewakili 1 screenshot akhir.
+#### Bisa dicek langsung juga di profil [codeacademy] (https://www.codecademy.com/idbmb)
+
 ### Senin - Hari Pertama di HACKTIV8 Phase 0
 
 - Menyelesaikan Codecademy Course - HTML CSS Unit 1
