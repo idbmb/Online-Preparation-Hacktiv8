@@ -24,7 +24,7 @@ Friday | Eat | Coding | Sleep |
 Saturday | Eat | Coding | Sleep |
 Sunday | Eat | Coding | Sleep |
 
-**use Markdown Github Flavor**
+**Use Markdown : [Github Flavor] (https://guides.github.com/features/mastering-markdown/)**
 
 ### Leave your comment below
 
