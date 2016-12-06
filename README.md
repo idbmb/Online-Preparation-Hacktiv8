@@ -2,4 +2,4 @@
 Repository Online Preparation Belajar Pemrograman Full-Stack JavaScript Hacktiv8
 
 ### Tugas Week 1: [Membuat Website Pertama Saya] (https://github.com/idbmb/Online-Preparation-Hacktiv8/tree/master/Phase-0/Week-1)
-
+### Tugas Week 2: [Mengenal Javascript] (https://github.com/idbmb/Online-Preparation-Hacktiv8/tree/master/Phase-0/Week-2)
