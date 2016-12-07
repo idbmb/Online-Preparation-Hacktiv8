@@ -17,8 +17,10 @@ body {
   background-color: #fff;
 }
 h1{
+  text-transform: uppercase;
   color: red;
   font-size: 45px;
+
 }
 h2{
   text-transform: uppercase;
@@ -37,6 +39,7 @@ p{
 }
 
 .comment h3{
+  text-transform: capitalize;
   text-align: center;
   color: red;
   font-size: 20px;
