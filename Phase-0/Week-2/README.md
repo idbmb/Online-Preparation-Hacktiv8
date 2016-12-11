@@ -13,4 +13,6 @@
 - Menyelesaikan Codecademy JavaScript Course Unit 1
 - Menyelesaikan Codecademy JavaScript Course Unit 2
 - Mengubah Pseudocode menjadi kode JavaScript
+- Mengubah Pseudocode menjadi kode JavaScript (Hard)
 - Melakukan Perulangan Menggunakan While
+- Menggabungkan Konsep Perulangan dan Kondisional
