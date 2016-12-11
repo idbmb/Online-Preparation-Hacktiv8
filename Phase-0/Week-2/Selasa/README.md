@@ -1,4 +1,4 @@
-##### Membuat algoritma sederhana dalam pseudocode - /algoritma-sederhana-dalam-pseudocode.md
+##### Membuat algoritma sederhana dalam pseudocode - https://github.com/idbmb/Online-Preparation-Hacktiv8/blob/master/Phase-0/Week-2/Selasa/algoritma-sederhana-dalam-pseudocode.md
 ##### Mengenal Penggunaan Functions - http://jsbin.com/ropumo/edit?js,console
 ##### Menyelesaikan Codecademy JavaScript Course Unit 1 - *In Folder Screenshot*
 ##### Menyelesaikan Codecademy JavaScript Course Unit 2 - *In Folder Screenshot*
