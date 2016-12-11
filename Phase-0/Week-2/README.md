@@ -16,3 +16,19 @@
 - Mengubah Pseudocode menjadi kode JavaScript (Hard)
 - Melakukan Perulangan Menggunakan While
 - Menggabungkan Konsep Perulangan dan Kondisional
+
+### Rabu - Arrays
+
+- Tantangan Array 1 (Mengakses Nilai dalam Array)
+- Tantangan Array 2 (Melooping menggunakan Array)
+- Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)
+
+### Kamis - Object dan JSON (JavaScript Object Notation)
+
+- Tantangan Menggunakan Object 1
+- Tantangan Menggunakan Object 2
+- Tantangan Menggunakan JSON
+
+### Jumat - Your First JavaScript App!
+
+- Tantangan Final W2
