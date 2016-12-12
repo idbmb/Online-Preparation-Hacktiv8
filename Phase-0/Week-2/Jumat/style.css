@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: black;
+    color: black;
+}
+
+.background {
+	  background: url(https://hacktiv8.com/img/ogdefault.jpg) no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    min-height: 600px;
+}
+
+.container {
+	padding: 15px 0 18px 18px;
+	position: relative;
+	width: 650px;
+	height: 50px;
+	min-height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+#heading {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+h1 {
+	padding-bottom: 0px;
+	font-size: 40px;
+	font-weight: 100;
+	text-align:center;
+}
+
+h3 {
+	padding-bottom: 0px;
+	font-size: 15px;
+	font-weight: 100;
+	text-align:center;
+}
+
+
+.status {
+	display: inline-block;
+	padding: 0px 0 0px 0;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	color: black;
+	line-height: 30px;
+}
+
+#score {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#score p {
+	display: inline-block;
+}
+
+#question {
+	display: inline-block;
+	margin: 0 165px 0 0;
+
+}
+
+#question p {
+	display: inline-block;
+
+}
+
+.restart {
+	display: inline-block;
+	float: right;
+	margin: 0 30px 0 0;
+	width: 60px;
+	Height: 60px;
+	position: relative;
+	border-radius: 10px;
+	color: #cc0000;
+	background-color: rgba(255, 255, 255, 0.90);
+	padding: 0px 5px;
+	font-size: 15px;
+	line-height: 29px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+h4 {
+	padding: 15px 0 10px 0;
+	font-size: 21px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h5{
+
+	padding: 0px 0 0px 0;
+	font-size: 21px;
+}
+
+ul {
+	padding: 10px 0 0 42px;
+	list-style-type: none;
+
+}
+
+ul li {
+	padding: 2px 0 10px;
+	font-size: 20px;
+}
+
+.option {
+	opacity: 1.5;
+	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
+	cursor: pointer;
+}
+
+.outcome {
+	display: inline-block;
+	padding: 15px 0 10px 0px;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#correct {
+	display: inline-block;
+	color: green;
+	font-size: 16px;
+}
+
+#incorrect {
+	display: inline-block;
+	color: red;
+}
+
+#correct-answer {
+	display: inline-block;
+	padding-left: 4px;
+}
+
+#next {
+	display: inline-block;
+	float: right;
+	margin: 0 24px 0 0;
+	width: 57px;
+	position: relative;
+	border-radius: 5px;
+	color: #444444;
+	background-color: rgba(175, 175, 175, 0.76);
+	padding: 0px 5px;
+	font-size: 16px;
+	line-height: 29px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+.correct-answer {
+	color: rgb(153, 153, 153);
+}
+
+.reset {
+	margin: 0 auto;
+}
+
+.quiz-end {
+	margin: 28px 292px 0 271px;
+	float: center;
+}
