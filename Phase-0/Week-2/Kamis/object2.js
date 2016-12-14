@@ -18,10 +18,11 @@ console.log('Pekerjaanku saat ini adalah ' + this.pekerjaan);
 console.log('Senang bertemu denganmu '+ teman.nama +' , semoga kamu sukses sebagai '+ teman.pekerjaan);
       };
     }
+
 var budi = new Teman('Budi', 'baik', 'developer');
 var tono = new Teman('Tono', 'baik', 'chef');
-    budi.sapa(tono.nama);
-    tono.balasSapa(budi.nama);
+    tono.sapa();
+    budi.balasSapa();
     budi.tanyaPekerjaan();
     tono.balasPekerjaan();
     budi.berpisah(tono);
