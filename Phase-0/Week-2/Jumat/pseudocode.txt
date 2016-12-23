@@ -1,0 +1,73 @@
+Pseudocode :
+
+Fungsi Question(currentQuestion,answers,correct) atau daftar pertanyaan dan kunci jawaban
+
+- BACA dan SIMPAN 'currentQuestion'
+- BACA dan SIMPAN 'answer'
+- BACA dan SIMPAN 'correct'
+
+Fungsi generateQuestions() atau menampilkan pertanyaan
+
+- BACA dan SIMPAN 'questions [currentQuestion].currentQuestion'
+
+Fungsi generateAnswers() atau menampilkan jawaban
+
+- BACA dan SIMPAN 'write'
+- BACA dan SIMPAN 'questions [currentQuestion].answers'
+- FOR variabel i = 0; i < 'questions [currentQuestion].answers'.length; i++)
+	write = "input radio option + questions [currentQuestion].answers"
+
+Fungsi submit() atau input jawaban dengan mengklik tombol radio
+
+- BACA dan SIMPAN 'input radio checked'
+- IF 'input radio checked' THEN
+	TAMPILKAN fungsi evaluation();
+
+Fungsi evaluation() atau evaluasi jawaban
+
+- BACA dan SIMPAN 'input radio checked'
+- IF (selected.length >= 0) THEN
+	TULISKAN 'selectedAnswer'
+- IF (selectedAnswer == questions [currentQuestion].correct) THEN
+	TULISKAN 'correct'
+	TULISKAN 'The correct answer is `questions[currentQuestion].answers[questions [currentQuestion].correct]`'
+	TAMPILKAN nextQuestion();
+	TAMPILKAN playerScore();
+	currentQuestion++;
+- ELSE
+	TULISKAN 'incorrect'
+	TULISKAN 'The correct answer is `questions[currentQuestion].answers[questions [currentQuestion].correct]`'
+	TAMPILKAN nextQuestion();
+	currentQuestion++;
+
+Fungsi nextQuestion() atau pertanyaan selanjutnya
+
+- IF (currentQuestion >= 10) THEN
+	TAMPILKAN complete();
+	TAMPILKAN restart();
+	return;
+- ELSE
+	TAMPILKAN questionNumber();
+	TAMPILKAN generateQuestions();
+	TAMPILKAN generateAnswers();
+	TAMPILKAN submit();
+
+Fungsi playerScore() atau score pemain
+
+- TAMPILKAN 'score' di tambah dengan jawaban yang benar
+
+Fungsi questionNumber() atau nomor pertanyaan
+
+- TAMPILKAN 'currentQuestion' penanda pertanyaan
+
+Fungsi complete() atau penghitungan akhir
+
+- TAMPILKAN 'score' dari jawaban yang benar
+
+Fungsi restart() atau memulai kembali
+
+- TAMPILKAN questionNumber()
+- TAMPILKAN generateQuestions()
+- TAMPILKAN generateAnswers()
+- TAMPILKAN submit()
+- TAMPILKAN playerScore()
