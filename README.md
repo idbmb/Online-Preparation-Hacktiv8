@@ -2,7 +2,7 @@
 Repository Online Preparation Pemrograman Full-Stack JavaScript at Hacktiv8
 Merupakan Dokumentasi saya selama belajar Pemrograman Full-Stack Developer di Hacktiv8.
 
-### Detail Tugas dapat di lihat pada link berikut ini : [Phase-0 Activities](https://github.com/idbmb/phase-0-activities)
+### Detail Tugas & Materi dapat di lihat pada link berikut ini : [Phase-0 Activities](https://github.com/idbmb/phase-0-activities)
 
 ![Hacktiv8 Logo](https://idbmb.github.io/assets/img/logo-hacktiv8_bordered.png)
 
