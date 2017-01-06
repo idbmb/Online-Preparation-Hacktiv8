@@ -21,7 +21,7 @@ if (num2 > num1) {
   return num1 + num2;
 
 }
-console.log(CheckNums(8,8));
+console.log(CheckNums(3,122));
 
 // keep this function call here
 // CheckNums(readline());
