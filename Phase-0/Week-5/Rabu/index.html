@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 50px;
+        font-family: 'arial';
+      }
+      .btn {
+        background: #446CB3;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        border: 0;
+        outline: none;
+        font-size: 2em;
+        border-radius: 8px;
+        border-bottom: 5px solid #34495E;
+        cursor: pointer;
+        margin: 10px;
+        width: 90%;
+      }
+      .btn:hover {
+        border-bottom: 2px solid #34495E;
+        margin-top: 13px;
+      }
+      input[type=text] {
+        width: 90%;
+        padding: 15px 30px;
+        font-size: 1.5em;
+        margin: 10px;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0, .2);
+        outline: none;
+      }
+      input[type=password] {
+        width: 90%;
+        padding: 15px 30px;
+        font-size: 1.5em;
+        margin: 10px;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0, .2);
+        outline: none;
+      }
+      p {
+        margin: 10px;
+        font-size: 1.5em;
+      }
+      form {
+        margin: 10px;
+        padding: 10px;
+        width: 90%;
+      }
+      span {
+        color: #019875;
+      }
+    </style>
+  </head>
+  <body>
+        <form action="#" id="main-form" name="main-form">
+        <fieldset>
+          <legend><h3>Registration Form</h3></legend>
+          <p>Username :</p>
+          <input id="username" name="username" type="text" placeholder="Input Username!" />
+
+          <p>Password :</p>
+          <input id="password" name="password" type="password" placeholder="Input Password!" />
+
+          <p>Confirm Password :</p>
+          <input id="confirmpassword" name="confirmpassword" type="password" placeholder="Confirm Password!" />
+
+          <p>E-mail :</p>
+          <input id="email" name="email" type="text" placeholder="Input E-mail!" />
+
+          <p>Confirm E-mail :</p>
+          <input id="confirmemail" name="confirmemail" type="text" placeholder="Confirm E-mail!" />
+
+          <input type="submit" class="btn" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
