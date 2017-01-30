@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number's Game</title>
+    <link rel="stylesheet" href="style.css" media="all" charset="utf-8">
+  </head>
+  <body>
+    <div class="main">
+      <section class="game">
+        <div class="play" id="play">
+          <div class="soal" id="outSoal"></div>
+          <input type="text" name="input" id="inpJawab" placeholder="Isi Jawaban Disini" value="">
+          <button type="button" name="button" id="btnJawab">Jawab</button>
+        </div>
+        <div class="pause" id="pause">
+            <div class="hasil" id="outHasil"></div>
+            <button type="button" id="lanjut">Lanjut</button>
+        </div>
+      </section>
+      <aside class="sidebar">
+        <select class="opsi" name="pilihan" id="pilihan">
+          <option value="0">Penjumlahan</option>
+          <option value="1">Pengurangan</option>
+          <option value="2">Perkalian</option>
+          <option value="3">Pembagian</option>
+        </select>
+        <div class="score" id="outSkor"></div>
+        <div class="level" id="dspLevel"></div>
+      </aside>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
